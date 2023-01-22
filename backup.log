@@ -1,0 +1,37 @@
+building file list ... done
+
+sent 153 bytes  received 20 bytes  346.00 bytes/sec
+total size is 83  speedup is 0.48
+building file list ... done
+file1
+dir1/
+dir1/file3
+dir1/file4
+
+sent 358 bytes  received 92 bytes  900.00 bytes/sec
+total size is 155  speedup is 0.34
+2023/01/22 22:56:35 [27818] receiving file list
+2023/01/22 22:56:35 [27818] sent 24 bytes  received 177 bytes  total size 598
+2023/01/22 22:56:58 [27821] receiving file list
+2023/01/22 22:56:58 [27821] .d..t.... ./
+2023/01/22 22:56:58 [27821] >f+++++++ file5
+2023/01/22 22:56:58 [27821] .d..t.... dir1/
+2023/01/22 22:56:58 [27821] >f.st.... dir1/file1
+2023/01/22 22:56:58 [27821] >f.st.... dir1/file2
+2023/01/22 22:56:58 [27821] >f.st.... dir1/file3
+2023/01/22 22:56:58 [27821] >f+++++++ dir1/file5
+2023/01/22 22:56:58 [27821] sent 146 bytes  received 201 bytes  total size 718
+2023/01/22 22:57:50 [27828] receiving file list
+2023/01/22 22:57:50 [27828] .d..t.... ./
+2023/01/22 22:57:50 [27828] >f+++++++ file6
+2023/01/22 22:57:50 [27828] >f+++++++ file7
+2023/01/22 22:57:50 [27828] .d..t.... dir1/
+2023/01/22 22:57:50 [27828] >f.st.... dir1/file2
+2023/01/22 22:57:50 [27828] >f.st.... dir1/file3
+2023/01/22 22:57:50 [27828] >f+++++++ dir1/file7
+2023/01/22 22:57:50 [27828] sent 146 bytes  received 237 bytes  total size 958
+2023/01/22 23:01:56 [27843] receiving file list
+2023/01/22 23:01:56 [27843] >f.st.... dir1/file7
+2023/01/22 23:01:56 [27843] sent 46 bytes  received 237 bytes  total size 1102
+2023/01/22 23:02:04 [27848] receiving file list
+2023/01/22 23:02:04 [27848] sent 24 bytes  received 237 bytes  total size 1126
