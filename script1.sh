@@ -1,16 +1,17 @@
 #!/usr/bin/env bash
 
+# (c)Volodymyr Korobtsov
+# Linux & Bash Task
+
 allargs="Aviable arguments:
 --all       - displays the IP addresses and symbolic names of all hosts in the current subnet
 --target    - displays a list of open system TCP ports"
 
-subnet="192.168.1.0/24"
-
 function getAllHosts {
-    nmap -sn -R $subnet
+    /usr/sbin/arp -a
 }
-getPorts() {
-    nmap -R $subnet
+function getPorts {
+    /usr/bin/netstat -tln
 }
 
 if [[ $# = 0 ]]; then
@@ -26,8 +27,3 @@ else
         echo "$allargs"
     fi
 fi
-
-
-
-
-# subnet="192.168.1.0/24"
